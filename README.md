@@ -9,7 +9,9 @@ This library contains a curated SILVA library available and our own barcoding li
 Ref: https://www.dropbox.com/s/abs1k4dcd2qtcde/SILVA_132_trimmed_euka02_dada2_names.fasta?dl=0 (from https://github.com/ngeraldi/eDNA_reference_libraries) and Ortega et al. 2020. A DNA-mini barcode for marine macrophytes. Molecular Ecology Resources. https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13164
 
 
-DADA2 Bioinformatic pipeline used in this article:
+File: Dada2_Pipeline.R
+Description: DADA2 Bioinformatic pipeline used in the article. 
+Ref: https://benjjneb.github.io/dada2/tutorial.html
 
 
 
