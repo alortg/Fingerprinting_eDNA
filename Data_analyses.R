@@ -1,7 +1,7 @@
-============================================================================
-PERMANOVA -  PERMDISP - ANOVA
-https://rstudio-pubs-static.s3.amazonaws.com/288625_b0cf85c5be974eb795cef778535289d8.html
-============================================================================
+##############################################################################
+#PERMANOVA -  PERMDISP - ANOVA
+#https://rstudio-pubs-static.s3.amazonaws.com/288625_b0cf85c5be974eb795cef778535289d8.html
+##############################################################################
 
 # PERMANOVA by sediment habitat 
 per<-read.csv("permdisp_habitat.csv", sep=",", header=TRUE, row.names=1)
@@ -56,11 +56,11 @@ TukeyHSD(mod)
 
 
   
-============================================================================
-nMDS 
-Tutorial: https://jonlefcheck.net/2012/10/24/nmds-tutorial-in-r/comment-page-1/
-https://jonlefcheck.net/2012/10/24/nmds-tutorial-in-r/
-============================================================================
+##############################################################################
+#nMDS 
+#Tutorial: https://jonlefcheck.net/2012/10/24/nmds-tutorial-in-r/comment-page-1/
+#https://jonlefcheck.net/2012/10/24/nmds-tutorial-in-r/
+##############################################################################
   
 
 library(vegan)
@@ -83,10 +83,10 @@ orditorp(example_NMDS, display="sites", air=5,cex=0.7, label=F, pch=symbol)
 dev.off()
   
 
-============================================================================
-Stable isotope analyses
-Tutorial: https://cran.r-project.org/web/packages/simmr/vignettes/simmr.html
-============================================================================
+##############################################################################
+#Stable isotope analyses
+#Tutorial: https://cran.r-project.org/web/packages/simmr/vignettes/simmr.html
+##############################################################################
 
 library(siar)
 
